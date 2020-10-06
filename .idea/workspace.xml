@@ -13,7 +13,122 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5615b30f-f0ca-493b-a753-1eb9ee17a357" name="Default Changelist" comment="222" />
+    <list default="true" id="5615b30f-f0ca-493b-a753-1eb9ee17a357" name="Default Changelist" comment="222">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/bin/yii" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bin/yii" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/behat/gherkin/bin/update_i18n" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/behat/gherkin/bin/update_i18n" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bin/codecept" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bin/codecept" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bin/markdown" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bin/markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bin/phpunit" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bin/phpunit" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bin/yaml-lint" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bin/yaml-lint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bin/yii" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bin/yii" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/bootstrap/grunt/change-version.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bower-asset/bootstrap/grunt/change-version.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/yii2-pjax/script/bootstrap" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bower-asset/yii2-pjax/script/bootstrap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/yii2-pjax/script/server" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bower-asset/yii2-pjax/script/server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bower-asset/yii2-pjax/script/test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bower-asset/yii2-pjax/script/test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/cebe/markdown/bin/markdown" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/cebe/markdown/bin/markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/codeception/codecept" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/codeception/codecept" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/phpunit-wrapper/src/Log/JUnit.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/phpunit-wrapper/src/Log/JUnit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/stub/tests/_data/DummyClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/stub/tests/_data/DummyClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache/Serializer/README" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache/Serializer/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/build-phar.sh" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/build-phar.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/phpunit" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/phpunit" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/sebastian/resource-operations/build/generate.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sebastian/resource-operations/build/generate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Resources/bin/yaml-lint" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Resources/bin/yaml-lint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_alert.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_badge.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_breadcrumb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_breadcrumb.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_button-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_button-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_carousel.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_close.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_close.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_code.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_code.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_custom-forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_custom-forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_dropdown.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_functions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_images.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_input-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_input-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_jumbotron.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_jumbotron.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_list-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_modal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_pagination.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_popover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_popover.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_print.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_print.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_progress.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_progress.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_reboot.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_root.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_root.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_spinners.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_spinners.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_tables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_tables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_toasts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_toasts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_tooltip.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_tooltip.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_transitions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_transitions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_type.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_type.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_utilities.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/bootstrap-grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/bootstrap-grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/bootstrap-reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/bootstrap-reboot.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/bootstrap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/bootstrap.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_alert.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_background-variant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_background-variant.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_badge.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_border-radius.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_border-radius.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_box-shadow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_box-shadow.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_breakpoints.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_breakpoints.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_caret.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_caret.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_clearfix.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_clearfix.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_deprecate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_deprecate.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_float.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_float.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_gradients.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_gradients.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_grid-framework.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_grid-framework.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_hover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_hover.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_image.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_image.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_list-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_lists.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_lists.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_nav-divider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_nav-divider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_pagination.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_reset-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_reset-text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_resize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_resize.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_screen-reader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_screen-reader.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_size.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_size.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_table-row.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_table-row.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_text-emphasis.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_text-emphasis.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_text-hide.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_text-hide.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_text-truncate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_text-truncate.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_transition.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_transition.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_visibility.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/mixins/_visibility.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/utilities/_align.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/utilities/_align.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/utilities/_background.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/utilities/_background.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/utilities/_borders.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/utilities/_borders.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/utilities/_clearfix.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/utilities/_clearfix.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/utilities/_display.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/utilities/_display.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/utilities/_embed.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/utilities/_embed.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/utilities/_flex.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/utilities/_flex.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/utilities/_float.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/utilities/_float.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/utilities/_overflow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/utilities/_overflow.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/utilities/_position.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/utilities/_position.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/utilities/_screenreaders.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/utilities/_screenreaders.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/utilities/_shadows.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/utilities/_shadows.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/utilities/_sizing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/utilities/_sizing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/utilities/_spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/utilities/_spacing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/utilities/_stretched-link.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/utilities/_stretched-link.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/utilities/_text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/utilities/_text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/utilities/_visibility.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/utilities/_visibility.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/vendor/_rfs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-debug/src/assets/scss/bs-4.3.1/vendor/_rfs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/behaviors/BlameableBehavior.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/behaviors/BlameableBehavior.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/yii" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/yii" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii" beforeDir="false" afterPath="$PROJECT_DIR$/yii" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,7 +247,7 @@
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.composer" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -149,7 +264,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601982762801</updated>
-      <workItem from="1601982765070" duration="644000" />
+      <workItem from="1601982765070" duration="1583000" />
     </task>
     <servers />
   </component>
@@ -173,13 +288,21 @@
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="301" y="74" key="SettingsEditor" timestamp="1601984343494">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="301" y="74" key="SettingsEditor/0.0.1600.860/1600.3.1280.984@0.0.1600.860" timestamp="1601984343494" />
     <state x="600" y="164" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1601983091324">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="600" y="164" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1600.860/1600.3.1280.984@0.0.1600.860" timestamp="1601983091324" />
-    <state x="603" y="342" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601983163931">
+    <state x="603" y="342" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601983439285">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="603" y="342" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860/1600.3.1280.984@0.0.1600.860" timestamp="1601983163931" />
+    <state x="603" y="342" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860/1600.3.1280.984@0.0.1600.860" timestamp="1601983439285" />
+    <state x="601" y="336" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601983223120">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="601" y="336" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1600.860/1600.3.1280.984@0.0.1600.860" timestamp="1601983223120" />
   </component>
 </project>
