@@ -29,7 +29,13 @@ class CalculatorController extends Controller
     public function actionIndex()
     {
         $model = new Calculator();
-        $this->render('index', ['model' => $model]);
+        if ($model->load(Yii::$app->request->post()) && $model->validate()) { 
+            //формула
+            return $this->render('index', ['model' => $model]);
+        }
+        else {
+            return $this->render('index', ['model' => $model]);
+        }
     }
 
 }
