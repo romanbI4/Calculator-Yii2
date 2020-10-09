@@ -4,3 +4,10 @@ protected/runtime/*
 !protected/runtime/.gitignore
 protected/data/*.db
 themes/classic/views/
+
+# phpstorm project files
+.idea
+*.iml
+
+# visual studio code project files
+.vscode
