@@ -14,7 +14,7 @@ class Calculator extends Model
     public function rules()
     {
         return [
-            [['startDate'], 'integer'],
+            [['startDate'], 'string'],
             [['allSumm'], 'integer'],
             [['longTerm'], 'integer'],
             [['annualRate'], 'integer'],
