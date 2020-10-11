@@ -44,6 +44,7 @@ $form = ActiveForm::begin([
 
 <?php ActiveForm::end(); ?>
 
+<?php if (!empty($model->startDate) && !empty($summary) && !empty($paymentPerMonth)) {?>
 <div class="row">
     <div class="col">
         <label>Начальная дата:</label>: <?= Html::encode($model->startDate) ?>
@@ -55,6 +56,7 @@ $form = ActiveForm::begin([
         <label>Платеж в месяц:</label>: <?= Html::encode($paymentPerMonth) ?>
     </div>
 </div>
+<?php } ?>
 
 <?php 
 if (!empty($model->allSumm) && !empty($paymentPerMonth)) {
@@ -65,14 +67,17 @@ if (!empty($model->allSumm) && !empty($paymentPerMonth)) {
             array('Общая переплата', (int) "$paymentPerMonth"),
         ),
         'options' => array('title' => 'Платежи')));
-} 
+}
 
-$diffPayment = new ActiveDataProvider([
-    'query' => Calculations::find(),
+if (!empty($summary) && !empty($model->longTerm)) {
+    $diffPayment = new ActiveDataProvider([
+        'query' => Calculations::find()->where(['monthly_payment' => $summary])->limit([$model->longTerm]),
         'pagination' => [
-            'pageSize' => 20,
+            'pageSize' => $model->longTerm,
         ],
-]);
+    ]);
+}
+
 if (!empty($diffPayment)) {
     echo GridView::widget([
         'dataProvider' => $diffPayment,
