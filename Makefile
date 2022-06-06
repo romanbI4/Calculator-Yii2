@@ -30,14 +30,14 @@ start: build up migrate chmod
 down: ## Stop the docker hub
 	@$(DOCKER_COMP) down --remove-orphans
 
+chmod:
+	@$(PHP_CONT) sh -c "cd backend; chmod 777 -R runtime; chmod 777 -R web/assets; chown www-data web; chown www-data web/calculatortest.com.db; chmod 777 web/calculatortest.com.db"
+
 sh: ## Connect to the PHP FPM container
 	@$(PHP_CONT) sh
 
 migrate:
 	@$(PHP_CONT) sh -c "cd backend; php yii migrate"
-
-chmod:
-	@$(PHP_CONT) sh -c "cd backend; chmod 777 -R runtime; chmod 777 -R web/assets; chmod -R 777 web/calculatortest.com.db;"
 
 logs: ## Show live logs
 	@$(DOCKER_COMP) logs --tail=0 --follow
