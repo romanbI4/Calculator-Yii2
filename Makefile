@@ -8,7 +8,7 @@ PHP_CONT = $(DOCKER_COMP) exec php-fpm
 # Executables
 PHP      = $(PHP_CONT) php
 COMPOSER = $(PHP_CONT) composer
-SYMFONY  = $(PHP_CONT) bin/console
+YII  = $(PHP_CONT) yii
 
 # Misc
 .DEFAULT_GOAL = help
@@ -25,7 +25,7 @@ build: ## Builds the Docker images
 up: ## Start the docker hub in detached mode (no logs)
 	@$(DOCKER_COMP) up --detach
 
-start: build up migrate fixtures## Build and start the containers
+start: build up migrate chmod
 
 down: ## Stop the docker hub
 	@$(DOCKER_COMP) down --remove-orphans
@@ -33,30 +33,14 @@ down: ## Stop the docker hub
 sh: ## Connect to the PHP FPM container
 	@$(PHP_CONT) sh
 
-fixtures:
-	@$(PHP_CONT) sh -c "cd backend; php bin/console doctrine:fixtures:load --no-interaction"
-
 migrate:
-	@$(PHP_CONT) sh -c "cd backend; php bin/console doctrine:migrations:migrate --no-interaction"
+	@$(PHP_CONT) sh -c "cd backend; php yii migrate"
 
-migrate-diff:
-	@$(PHP_CONT) sh -c "cd backend; php bin/console doctrine:migrations:diff"
+chmod:
+	@$(PHP_CONT) sh -c "cd backend; chmod 777 -R runtime; chmod 777 -R web/assets; chmod -R 777 web/calculatortest.com.db;"
 
 logs: ## Show live logs
 	@$(DOCKER_COMP) logs --tail=0 --follow
-
-## —— FRONT  ——————————————————————————————————————————————————————————————
-admin-install:
-	$(EXEC_PHP) sh -c "cd admin; npm install"
-
-admin-install-vue:
-	$(EXEC_PHP) sh -c "cd admin; npm init vue@latest"
-
-admin-run:
-	$(EXEC_PHP) sh -c "cd admin; npm install; npm run dev"
-
-admin-build:
-	$(EXEC_PHP) sh -c "cd admin; npm run build"
 
 ## —— Composer 🧙 ——————————————————————————————————————————————————————————————
 composer: ## Run composer, pass the parameter "c=" to run a given command, example: make composer c='req symfony/orm-pack'
