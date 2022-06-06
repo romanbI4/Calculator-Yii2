@@ -4,15 +4,14 @@ namespace app\controllers;
 
 use Yii;
 use app\models\Calculator;
-use app\models\Calculations;
 use yii\web\Controller;
 
 class CalculatorController extends Controller
 {
 
-    public $summary;
-    public $paymentPerMonth;
-    public $diffPayment;
+    public string $summary;
+    public string $paymentPerMonth;
+    public string $diffPayment;
 
     /**
      * {@inheritdoc}
@@ -32,7 +31,6 @@ class CalculatorController extends Controller
         if ($model->load(Yii::$app->request->post()) && $model->validate()) {
             $summary = round(((($model->annualRate / 100 / 12) * pow((1 + ($model->annualRate / 100 / 12)), $model->longTerm)) / (pow((1+($model->annualRate / 100 / 12)), $model->longTerm)-1)) * $model->allSumm, 2);
             $paymentPerMonth = ($model->longTerm * $summary) - $model->allSumm;
-            $diff = new Calculations();
             for ($i = 0; $i < (int)$model->longTerm; $i++) {
                 $diffArr[$i] = [
                     $diffArr[$i]["date"] = $model->startDate,
