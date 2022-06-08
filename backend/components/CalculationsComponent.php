@@ -1,8 +1,10 @@
 <?php
 namespace app\components;
 
+use app\models\Calculations;
 use Yii;
 use yii\base\Component;
+use yii\data\Pagination;
 use yii\db\Exception;
 
 class CalculationsComponent extends Component
