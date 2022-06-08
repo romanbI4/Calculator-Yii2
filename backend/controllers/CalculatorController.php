@@ -23,7 +23,7 @@ class CalculatorController extends Controller
     public function actionIndex()
     {
         $dataProvider = new ActiveDataProvider([
-            'query' => Calculations::find(),
+            'query' => $this->calculationsService->getList(),
         ]);
 
         return $this->render('index', [
@@ -36,12 +36,11 @@ class CalculatorController extends Controller
         $model = new Calculator();
         $component = (new CalculationsComponent([], $model, $this->calculationsService))->calculations();
         if (!empty($component['summary']) && !empty($component['paymentPerMonth'])) {
-            return $this->render('index', [
+            return $this->render('calculate', [
                 'model' => $model,
-                'query' => $component['query'],
                 'summary' => $component['summary'],
                 'paymentPerMonth' => $component['paymentPerMonth'],
-                'pagination' => $component['pagination']
+                'query' => $component['query']
             ]);
         } else {
             return $this->render('calculate', [

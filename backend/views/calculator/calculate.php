@@ -2,6 +2,7 @@
 
 /* @var $this yii\web\View */
 use yii\helpers\Html;
+use yii\helpers\Url;
 use yii\widgets\ActiveForm;
 use kartik\date\DatePicker;
 use scotthuangzl\googlechart\GoogleChart;
@@ -57,6 +58,8 @@ $form = ActiveForm::begin([
 </div>
 <?php } ?>
 
+<a class="btn btn-primary" href="<?=Url::to(['/calculator/index']);?>">Main page</a>
+
 <?php 
 if (!empty($model->allSumm) && !empty($paymentPerMonth)) {
     echo GoogleChart::widget(array('visualization' => 'PieChart',
@@ -68,11 +71,12 @@ if (!empty($model->allSumm) && !empty($paymentPerMonth)) {
         'options' => array('title' => 'Платежи')));
 }
 
-if (!empty($summary) && !empty($model->longTerm)) {
+if (!empty($summary) && !empty($model->longTerm) && isset($query)) {
     $diffPayment = new ActiveDataProvider([
+        'query' => $query,
         'pagination' => [
             'pageSize' => $model->longTerm,
-        ],
+        ]
     ]);
 }
 

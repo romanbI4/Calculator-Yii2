@@ -1,17 +1,14 @@
 <?php
 namespace app\components;
 
-use app\models\Calculations;
 use Yii;
 use yii\base\Component;
-use yii\data\Pagination;
 use yii\db\Exception;
 
 class CalculationsComponent extends Component
 {
     public string $summary;
     public string $paymentPerMonth;
-    public string $diffPayment;
     public $model;
     private $calculationsService;
 
@@ -50,15 +47,21 @@ class CalculationsComponent extends Component
 
                 try {
                     $this->calculationsService->save($diffArr[$i]);
-                } catch (Exception $exception){
+                } catch (Exception $exception) {
                     return $exception->getMessage();
                 }
             }
 
+            $query = $this->calculationsService->getListByParams([
+                'summary' => $summary,
+                'longTerm' => $this->model->longTerm
+            ]);
+
             return [
                 'summary' => $summary,
                 'paymentPerMonth' => $paymentPerMonth,
-                'model' => $this->model
+                'model' => $this->model,
+                'query' => $query
             ];
         }
     }
