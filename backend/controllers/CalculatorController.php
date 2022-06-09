@@ -4,10 +4,8 @@ namespace app\controllers;
 
 use app\components\CalculationsComponent;
 use app\components\services\CalculationsService;
-use app\models\Calculations;
 use app\models\Calculator;
 use yii\data\ActiveDataProvider;
-use yii\data\Pagination;
 use yii\web\Controller;
 
 class CalculatorController extends Controller

@@ -73,10 +73,7 @@ if (!empty($model->allSumm) && !empty($paymentPerMonth)) {
 
 if (!empty($summary) && !empty($model->longTerm) && isset($query)) {
     $diffPayment = new ActiveDataProvider([
-        'query' => $query,
-        'pagination' => [
-            'pageSize' => $model->longTerm,
-        ]
+        'query' => $query
     ]);
 }
 

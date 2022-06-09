@@ -27,6 +27,7 @@ class CalculationsComponent extends Component
         if ($this->model->load(Yii::$app->request->post()) && $this->model->validate()) {
             $summary = round(((($this->model->annualRate / 100 / 12) * pow((1 + ($this->model->annualRate / 100 / 12)), $this->model->longTerm)) / (pow((1 + ($this->model->annualRate / 100 / 12)), $this->model->longTerm) - 1)) * $this->model->allSumm, 2);
             $paymentPerMonth = ($this->model->longTerm * $summary) - $this->model->allSumm;
+            $dates = [];
             for ($i = 0; $i < (int)$this->model->longTerm; $i++) {
                 $diffArr[$i] = [
                     $diffArr[$i]["date"] = $this->model->startDate,
@@ -35,6 +36,7 @@ class CalculationsComponent extends Component
                     $diffArr[$i]['principal_amount_to_be_repaid'] = round($diffArr[$i]["monthly_payment"] - $diffArr[$i]["amount_of_interest_paid"], 2),
                     $diffArr[$i]['balance_of_the_principal_debt_on_the_loan_at_the_date_of_payment'] = round($this->model->allSumm - $diffArr[$i]['principal_amount_to_be_repaid'], 2),
                 ];
+                $dates[] = $diffArr[$i][0];
                 if ($i >= 1) {
                     $diffArr[$i] = [
                         $diffArr[$i]["date"] = date('d.m.Y', strtotime($this->model->startDate . ' + ' . $i . ' month')),
@@ -43,6 +45,7 @@ class CalculationsComponent extends Component
                         $diffArr[$i]['principal_amount_to_be_repaid'] = round(($diffArr[$i - 1][2] - $diffArr[$i]["amount_of_interest_paid"]) + $diffArr[$i - 1][3], 2),
                         $diffArr[$i]['balance_of_the_principal_debt_on_the_loan_at_the_date_of_payment'] = round($diffArr[$i - 1][4] - $diffArr[$i]['principal_amount_to_be_repaid'], 2),
                     ];
+                    $dates[] = $diffArr[$i][0];
                 }
 
                 try {
@@ -54,7 +57,7 @@ class CalculationsComponent extends Component
 
             $query = $this->calculationsService->getListByParams([
                 'summary' => $summary,
-                'longTerm' => $this->model->longTerm
+                'dates' => array_unique($dates),
             ]);
 
             return [

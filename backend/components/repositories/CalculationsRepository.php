@@ -20,7 +20,11 @@ class CalculationsRepository
     public function getListByParams($params = [])
     {
         if (is_array($params) && !empty($params)) {
-            if (!$list = Calculations::find()->where(['monthly_payment' => $params['summary']])->limit([$params['longTerm']])) {
+            if (!$list = Calculations::find()->where([
+                    'monthly_payment' => $params['summary'],
+                    'date' => $params['dates']
+                ])
+            ) {
                 throw new Exception('Calculations with this params not found.');
             }
             return $list;
