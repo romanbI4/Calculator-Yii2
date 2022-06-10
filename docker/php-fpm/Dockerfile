@@ -11,6 +11,10 @@ RUN apt-get update && \
     docker-php-ext-install -j$(nproc) zip opcache intl && \
     apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
+RUN docker-php-ext-install pdo pdo_mysql \
+    && docker-php-ext-enable pdo pdo_mysql \
+    && docker-php-ext-configure pdo_mysql --with-pdo-mysql=mysqlnd
+
 COPY --from=composer /usr/bin/composer /usr/bin/composer
 
 WORKDIR /var/www

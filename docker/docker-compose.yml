@@ -15,12 +15,6 @@ services:
     container_name: php-fpm_testing
     build:
       context: ./php-fpm
-    depends_on:
-      - postgres
-    environment:
-      - APP_ENV=${APP_ENV}
-      - APP_SECRET=${APP_SECRET}
-      - DATABASE_URL=${DATABASE_URL}
     volumes:
       - ./../:/var/www
     ports:

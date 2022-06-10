@@ -25,13 +25,13 @@ build: ## Builds the Docker images
 up: ## Start the docker hub in detached mode (no logs)
 	@$(DOCKER_COMP) up --detach
 
-start: build up migrate chmod
+start: build up chmod migrate
 
 down: ## Stop the docker hub
 	@$(DOCKER_COMP) down --remove-orphans
 
 chmod:
-	@$(PHP_CONT) sh -c "cd backend; chmod 777 -R runtime; chmod 777 -R web/assets; chown www-data web; chown www-data web/calculatortest.com.db; chmod 777 web/calculatortest.com.db"
+	@$(PHP_CONT) sh -c "cd backend; chmod 777 -R runtime; chmod 777 -R web/assets; chmod 777 -R migrations; chown www-data web; chown www-data web/calculatortest.com.db; chmod 777 web/calculatortest.com.db"
 
 sh: ## Connect to the PHP FPM container
 	@$(PHP_CONT) sh
