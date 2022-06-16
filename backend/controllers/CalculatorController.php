@@ -33,7 +33,7 @@ class CalculatorController extends Controller
     {
         $model = new Calculator();
         $component = (new CalculationsComponent([], $model, $this->calculationsService))->calculations();
-        if (!empty($component['summary']) && !empty($component['paymentPerMonth'])) {
+        if (!empty($component['summary']) && !empty($component['paymentPerMonth']) && !empty($component['query'])) {
             return $this->render('calculate', [
                 'model' => $model,
                 'summary' => $component['summary'],
